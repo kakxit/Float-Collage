@@ -1,0 +1,99 @@
+{
+  "app": {
+    "name": "拼好图"
+  },
+  "toolbar": {
+    "import": "导入",
+    "export": "导出",
+    "guides": "参考线",
+    "layers": "图层",
+    "settings": "设置",
+    "ratio": "比例",
+    "transparency": "透明度",
+    "passthrough": "鼠标穿透",
+    "alwaysOnTop": "始终置顶",
+    "layerTop": "图层置顶",
+    "layerBottom": "图层置底",
+    "resizeMode": "缩放模式",
+    "resizeScaleShort": "缩放",
+    "resizeEdgeShort": "贴边",
+    "undo": "撤销",
+    "redo": "重做"
+  },
+  "panel": {
+    "guides": {
+      "title": "参考线设置",
+      "horizontal": "横向",
+      "vertical": "竖向",
+      "count": "数量",
+      "generate": "生成",
+      "clear": "清除全部",
+      "visible": "参考线显示",
+      "snapEnabled": "智能吸附",
+      "alignLinesVisible": "临时对齐线",
+      "snapThreshold": "吸附阈值"
+    },
+    "layers": {
+      "title": "图层管理",
+      "moveUp": "上移",
+      "moveDown": "下移",
+      "moveToTop": "置顶",
+      "moveToBottom": "置底",
+      "visible": "可见",
+      "lock": "锁定",
+      "delete": "删除",
+      "empty": "画布上还没有图片"
+    },
+    "ratio": {
+      "title": "画布比例",
+      "free": "自由",
+      "lock": "锁定比例",
+      "custom": "自定义",
+      "resizeBehavior": "窗口缩放策略",
+      "scaleMode": "画面随窗口缩放",
+      "edgeAnchorMode": "保持比例贴边"
+    },
+    "export": {
+      "title": "导出设置",
+      "format": "格式",
+      "quality": "质量",
+      "exportBtn": "导出图片"
+    },
+    "transparency": {
+      "title": "画布透明度",
+      "opacity": "背景不透明度"
+    }
+  },
+  "dropzone": {
+    "hint": "松开鼠标以导入图片",
+    "unsupported": "不支持该文件格式"
+  },
+  "shortcuts": {
+    "title": "快捷键",
+    "import": "Ctrl+O · 导入图片",
+    "paste": "Ctrl+V · 粘贴图片",
+    "undo": "Ctrl+Z · 撤销",
+    "redo": "Ctrl+Y · 重做",
+    "delete": "Delete · 删除选中",
+    "panCanvas": "Space+拖拽 · 平移画布",
+    "transparency": "Alt+滚轮 · 调节透明度",
+    "disableSnap": "Alt+拖拽 · 临时关闭吸附"
+  },
+  "status": {
+    "imageAdded": "已添加图片",
+    "imagesAdded": "已添加 {{count}} 张图片",
+    "exported": "导出成功",
+    "passthroughOn": "鼠标穿透模式已开启",
+    "passthroughOff": "鼠标穿透模式已关闭",
+    "alwaysOnTopOn": "始终置顶已开启",
+    "alwaysOnTopOff": "始终置顶已关闭",
+    "resizeModeScale": "已切换：画面随窗口缩放",
+    "resizeModeEdgeAnchor": "已切换：保持比例贴边",
+    "layerToTop": "已置顶当前图层",
+    "layerToBottom": "已置底当前图层",
+    "snapOn": "智能吸附已开启",
+    "snapOff": "智能吸附已关闭",
+    "alignLinesOn": "临时对齐线已开启",
+    "alignLinesOff": "临时对齐线已关闭"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "app": {
+    "name": "FreePn"
+  },
+  "toolbar": {
+    "import": "Import",
+    "export": "Export",
+    "guides": "Guides",
+    "layers": "Layers",
+    "settings": "Settings",
+    "ratio": "Ratio",
+    "transparency": "Transparency",
+    "passthrough": "Click-Through",
+    "alwaysOnTop": "Always on Top",
+    "layerTop": "Layer to Top",
+    "layerBottom": "Layer to Bottom",
+    "resizeMode": "Resize Mode",
+    "resizeScaleShort": "Scale",
+    "resizeEdgeShort": "Anchor",
+    "undo": "Undo",
+    "redo": "Redo"
+  },
+  "panel": {
+    "guides": {
+      "title": "Guide Lines",
+      "horizontal": "Horizontal",
+      "vertical": "Vertical",
+      "count": "Count",
+      "generate": "Generate",
+      "clear": "Clear All",
+      "visible": "Guides Visible",
+      "snapEnabled": "Smart Snapping",
+      "alignLinesVisible": "Temporary Align Lines",
+      "snapThreshold": "Snap Threshold"
+    },
+    "layers": {
+      "title": "Layers",
+      "moveUp": "Move Up",
+      "moveDown": "Move Down",
+      "moveToTop": "Move to Top",
+      "moveToBottom": "Move to Bottom",
+      "visible": "Visible",
+      "lock": "Lock",
+      "delete": "Delete",
+      "empty": "No images on canvas"
+    },
+    "ratio": {
+      "title": "Canvas Ratio",
+      "free": "Free",
+      "lock": "Lock Ratio",
+      "custom": "Custom",
+      "resizeBehavior": "Resize Behavior",
+      "scaleMode": "Scale with Window",
+      "edgeAnchorMode": "Keep Ratio + Edge Anchor"
+    },
+    "export": {
+      "title": "Export",
+      "format": "Format",
+      "quality": "Quality",
+      "exportBtn": "Export Image"
+    },
+    "transparency": {
+      "title": "Canvas Transparency",
+      "opacity": "Background Opacity"
+    }
+  },
+  "dropzone": {
+    "hint": "Drop images here to import",
+    "unsupported": "Unsupported file format"
+  },
+  "shortcuts": {
+    "title": "Keyboard Shortcuts",
+    "import": "Ctrl+O · Import images",
+    "paste": "Ctrl+V · Paste image",
+    "undo": "Ctrl+Z · Undo",
+    "redo": "Ctrl+Y · Redo",
+    "delete": "Delete · Remove selected",
+    "panCanvas": "Space+Drag · Pan canvas",
+    "transparency": "Alt+Scroll · Adjust transparency",
+    "disableSnap": "Alt+Drag · Disable snapping"
+  },
+  "status": {
+    "imageAdded": "Image added",
+    "imagesAdded": "{{count}} images added",
+    "exported": "Exported successfully",
+    "passthroughOn": "Click-through mode enabled",
+    "passthroughOff": "Click-through mode disabled",
+    "alwaysOnTopOn": "Always-on-top enabled",
+    "alwaysOnTopOff": "Always-on-top disabled",
+    "resizeModeScale": "Switched: scale with window",
+    "resizeModeEdgeAnchor": "Switched: keep ratio + edge anchor",
+    "layerToTop": "Moved layer to top",
+    "layerToBottom": "Moved layer to bottom",
+    "snapOn": "Smart snapping enabled",
+    "snapOff": "Smart snapping disabled",
+    "alignLinesOn": "Temporary align lines enabled",
+    "alignLinesOff": "Temporary align lines disabled"
+  }
+}
