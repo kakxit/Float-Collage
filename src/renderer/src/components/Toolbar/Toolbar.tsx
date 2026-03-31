@@ -142,10 +142,21 @@ const Toolbar: React.FC = () => {
       {/* 工具栏容器 */}
       <div
         className={`toolbar ${isExpanded ? 'toolbar--expanded' : ''}`}
-        style={{ '--toolbar-scale': toolbarScale } as React.CSSProperties}
-        onMouseEnter={() => setIsExpanded(true)}
+        style={{ 
+          '--toolbar-scale': toolbarScale,
+          pointerEvents: 'auto'
+        } as React.CSSProperties}
+        onMouseEnter={() => {
+          setIsExpanded(true)
+          if (isPassthrough) {
+            window.electronAPI.setIgnoreMouseEvents(false)
+          }
+        }}
         onMouseLeave={() => {
           if (!activePanel) setIsExpanded(false)
+          if (isPassthrough) {
+            window.electronAPI.setIgnoreMouseEvents(true, { forward: true })
+          }
         }}
       >
         {/* 折叠状态下的小按钮 */}
